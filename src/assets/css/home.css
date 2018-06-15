@@ -28,7 +28,7 @@
 
 .fix-for-filter .input-group.input-group--overflow .input-group__append-icon{width: 8px;}
 
-.list__tile{font-size: 11px; text-align: center;padding: 5px;height: auto;}
+/*.list__tile{font-size: 11px; text-align: center;padding: 5px;height: auto;}*/
 
 
 #top-filter{position: relative;}
@@ -116,7 +116,7 @@
 .chip .icon{position: relative;}
 .main_s_s{font-weight:normal;font-style: italic;margin-right: 3px;}
 
-.list__tile__title{margin-left: 15px;}
+/*.list__tile__title{margin-left: 15px;}*/
 
 
 /*menu drop filter**/
@@ -156,10 +156,16 @@
 .custom-filter .btn{margin: 5px 0;}
 
 #icon-switch a{padding: 6px 9px;}
-.router-link-active{background: #EEE;}
 .table-top-margin{margin-top: 8px;}
 .colright li{list-style-type: none;margin-bottom: 5px;margin-left: 10px;margin-top: 2px;}
 .mymenufilter{text-align: left;}
+
+/*leftmenu*/
+#leftmenu a:visited{color: #000;}
+.list__tile__title a{width: 100%;display: block;}
+a.leftmenulink{color: rgb(0,0,0.85);text-decoration: none;}
+.leftmenutitle .list__tile__title{height: 40px;line-height: 40px;}
+
 
 
 @media only screen and (max-width:  600px){
