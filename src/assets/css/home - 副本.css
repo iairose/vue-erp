@@ -2,9 +2,13 @@
 .data-iterator{width:100%;}
 #fix-for-tab .tabs__slider-wrapper{display: none;}
 
+
 #fix-for-tab .list__tile,#fix-for-tab .card__title{padding: 0 0 5px 5px;}
 #fix-for-tab .list__tile{}
 
+/*#fix-for-tab .list--dense .list__tile:not(.list__tile--avatar) {
+    height: 18px;
+}*/
 #fix-for-tab .theme--light .card {margin-left: 10px;}
 
 .container.fill-height .layout {height: auto;}
@@ -23,6 +27,9 @@
 #top_center .input-group__input::before{display: none;}
 
 .fix-for-filter .input-group.input-group--overflow .input-group__append-icon{width: 8px;}
+
+/*.list__tile{font-size: 11px; text-align: center;padding: 5px;height: auto;}*/
+
 
 #top-filter{position: relative;}
 
@@ -89,6 +96,7 @@
 }
 .theme--light .input-group:not(.input-group--error) label{color:#666666;}
 
+.menu__activator .btn{margin: 6px 0;}
 .myradioicon{margin-top: 5px;}
 .myradioicon li{display: flex;align-items: center;margin-bottom: 5px;}
 .myradioicon i{font-size: 13px;color: #616161;margin-left: 5px;}
@@ -107,6 +115,9 @@
 
 .chip .icon{position: relative;}
 .main_s_s{font-weight:normal;font-style: italic;margin-right: 3px;}
+
+/*.list__tile__title{margin-left: 15px;}*/
+
 
 /*menu drop filter**/
 .menudown .input-group--append-icon.input-group--selection-controls.input-group--selection-controls label{position: absolute;left: 0;text-indent:25px;max-width: 100%;font-size: 13px;
@@ -155,18 +166,13 @@
 a.leftmenulink{color: rgb(0,0,0.85);text-decoration: none;}
 .leftmenutitle .list__tile__title{height: 40px;line-height: 40px;}
 
-.toolbarmenu .list__tile{height: 24px;}
-
-.menu_u_r .menu__activator:hover{background-color: #68465f;}
-.toolbarmenu .list__tile__title{text-align: left;}
-.toolbarmenu .list__tile__title a{color: #000;text-decoration: none;font-size: 13px;}
-.search_pop .list__tile{height: 30px;font-size:13px;}
 
 
 @media only screen and (max-width:  600px){
 .gridwrap{width: 100%;}
 #top_arrow{position: absolute;right: 8px;bottom: 5px;}
-
+/*.left-btn{position: absolute;top: 50px;}*/
+/*#top_dropdown{height: 850px;}*/
 #fix-for-tab .tabs__wrapper{height: 85px;margin: 10px;}
 
 #toptitlesearch{display:flex;justify-content: flex-start;align-items: flex-end; flex-wrap: wrap;padding: 10px;}
@@ -179,5 +185,7 @@ a.leftmenulink{color: rgb(0,0,0.85);text-decoration: none;}
 
 table.table .input-group--selection-controls.checkbox .icon{top: 3px;}
 .mymenufilter{text-align: center;margin-bottom: 20px;}
+.left-btn{/*padding-bottom: 10px;padding-left: 8px;*/}
+/**{box-sizing: border-box;}*/
 .table__overflow .datatable thead th.column.sortable:nth-child(2){text-indent: 0;}
 }

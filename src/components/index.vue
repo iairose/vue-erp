@@ -101,15 +101,11 @@ components: {filter_input,filter_a,filter_a_chip,custom_filter_chip,groupby_filt
 
   data () {
     return {
-      // topmenus:['Orders','Invoicing','Catalog','Reporting','Configuration'],
-      // drawer: true,
-      // title: 'ERP',
-      // drawer: null,
     }
   },
 
   methods: {
-  },
+  }
   
 }
 </script>

@@ -1,7 +1,7 @@
 .toptab_txt{color: black;text-align: left;}
 .toptab_txt1{color: teal;font-size: 12px;}
 .toptab_txt2{font-size: 12px;}
-.tabs__item{border-right: 1px solid rgba(0,0,0,.12);border-top: 1px solid rgba(0,0,0,.12);}
+/*.tabs__item{border-right: 1px solid rgba(0,0,0,.12);border-top: 1px solid rgba(0,0,0,.12);}*/
 #main_wrapup .card{position: relative;}
 #main_wrapup .card i{position: relative;top: 5px;left: 5px;}
 #top_arrow i{font-size: 25px;}
@@ -75,6 +75,8 @@ font-weight: normal;text-align: left;}
 #tabfix_1 .leftspan i{margin-bottom: 0;}
 
 
+
+
 @media only screen and (max-width:  600px){
 .toolbar__content .btn{min-width: auto;}
 .btn__content{padding:0 5px;}
@@ -90,7 +92,6 @@ align-items: flex-end;
 .toptabs{display:initial;}
 #top_center{margin: 10px;}
 
-.more_tab{height: 100%;max-height: 44px;}
 #main_wrapup .tabs__container--icons-and-text .tabs__item .icon{margin-bottom: 0;}
 #tabfix_1{text-align:right;}
 .container.grid-list-md{padding-left: 3px;padding-right: 3px;}
@@ -99,6 +100,8 @@ align-items: flex-end;
 #main_wrapdown .tabs__container--align-with-title{padding-left: 5px;}
 
 }
+
+#top_center .topmenudrop .btn__content{color: #000;}
 
 @media only screen and (min-width: 600px){
 #main_wrapup .tabs__div {min-width: 100px;}

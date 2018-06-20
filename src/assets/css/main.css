@@ -44,7 +44,7 @@ table.table tbody tr{height: 33px;}
 #fix-for-tab .tabs__container--icons-and-text .tabs__div{min-width: 32px;}
 
 
-.toolbar__items .btn__content{padding: 0 10px;}
+.toolbar__items .btn__content{padding: 0 10px;color: #fff;}
 .toolbar__content .btn__content i.icon{font-size: 20px;}
   .input-group.input-group--overflow .input-group__selections{height: 28px;}
   #top_center label{font-size: 11px;top:0!important; text-align: left;font-weight: 500;    color: rgba(0,0,0,.65);}

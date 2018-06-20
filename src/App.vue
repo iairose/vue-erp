@@ -44,8 +44,51 @@
 
     <v-layout row justify-space-between align-center>
       <v-flex xs10 class="menu_u_r">      
-       <v-btn v-for="topmenu in topmenus" :key="topmenu" flat>{{ topmenu }}</v-btn>     
-      </v-flex>
+       
+<v-menu open-on-hover bottom offset-y>
+      <v-btn slot="activator" color="white" flat>Orders</v-btn>
+      <v-list class="toolbarmenu">
+        <v-list-tile v-for="(item, index) in items_orders" :key="index" @click="">
+          <v-list-tile-title><router-link :to='item.url'>{{ item.title }}</router-link></v-list-tile-title>
+        </v-list-tile>
+      </v-list>
+    </v-menu>
+
+    <v-menu open-on-hover bottom offset-y>
+      <v-btn slot="activator" color="white" flat>Invoicing</v-btn>
+      <v-list class="toolbarmenu">
+        <v-list-tile v-for="(item, index) in items_invoicing" :key="index" @click="">
+          <v-list-tile-title><router-link :to='item.url'>{{ item.title }}</router-link></v-list-tile-title>
+        </v-list-tile>
+      </v-list>
+    </v-menu>
+    <v-menu open-on-hover bottom offset-y>
+      <v-btn slot="activator" color="white" flat>Catalog</v-btn>
+      <v-list class="toolbarmenu">
+        <v-list-tile v-for="(item, index) in items_catalog" :key="index" @click="">
+          <v-list-tile-title><router-link :to='item.url'>{{ item.title }}</router-link></v-list-tile-title>
+        </v-list-tile>
+      </v-list>
+    </v-menu>
+
+    <v-menu open-on-hover bottom offset-y>
+      <v-btn slot="activator" color="white" flat>Reporting</v-btn>
+      <v-list class="toolbarmenu">
+        <v-list-tile v-for="(item, index) in items_reporting" :key="index" @click="">
+          <v-list-tile-title><router-link :to='item.url'>{{ item.title }}</router-link></v-list-tile-title>
+        </v-list-tile>
+      </v-list>
+    </v-menu>
+    <v-menu open-on-hover bottom offset-y>
+      <v-btn slot="activator" flat color="white">Configuration</v-btn>
+      <v-list class="toolbarmenu">
+        <v-list-tile v-for="(item, index) in items_configuration" :key="index" @click="">
+          <v-list-tile-title><router-link :to='item.url'>{{ item.title }}</router-link></v-list-tile-title>
+        </v-list-tile>
+      </v-list>
+    </v-menu>
+
+     </v-flex>
       <v-flex xs2 text-xs-right align-center>
       <div class="menu_wrench"><span class="menu_user menu_user_hide"><v-btn flat icon><i class="fas fa-wrench"></i></v-btn></span>
       <span class="menu_user"><a href="#"><img src="./assets/img/1.jpg"/></a></span></div>
@@ -63,18 +106,11 @@
           row wrap
         >
           <v-flex xs12>
-<!-- <admin_index></admin_index> -->
-<router-view></router-view> 
-
-
-
+<router-view></router-view>
           </v-flex>
         </v-layout>
       </v-container>
     </v-content>
-
-
-
 
     <v-footer app inset class="navbg">
       <span class="white--text">&copy; 2017</span>
@@ -83,19 +119,19 @@
 </template>
 
 <script>
-// import admin_index from '@/components/index'
-// import EventBus from '@/event-bus.js'
 export default {
-
 name: 'App',
-// components: {admin_index},
-
   data () {
     return {
-      topmenus:['Orders','Invoicing','Catalog','Reporting','Configuration'],
-      drawer: true,
+topmenus:[ 'Orders', 'Invoicing', 'Catalog', 'Reporting', 'Configuration'],
+items_orders:[{title:'Quotations',url:'/test'},{title:'Orders',url:'/test'},{title:'Customers',url:'/test'}],
+items_invoicing:[{title:'Orders to Invoice',url:'/test'},{title:'Orders to Upsell',url:'/test'}],
+items_catalog:[{title:'Products',url:'/test'}],
+items_reporting:[{title:'Sales',url:'/test'},{title:'Sales Channels',url:'/test'},{title:'All Channels Sales Orders',url:'/test'}],
+items_configuration:[{title:'Settings',url:'/test'},{title:'Sales Channels',url:'/test'}],
+
       title: 'ERP',
-      drawer: null,
+      drawer: null
     }
   },
 
@@ -106,8 +142,4 @@ name: 'App',
 </script>
 
 <style>
-/*@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons");
-@import './assets/css/fontawesome-all.min.css';
-@import './assets/css/main.css';
-@import './assets/css/home.css';*/
 </style>

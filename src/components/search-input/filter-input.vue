@@ -16,12 +16,12 @@
 <v-list-tile-title>Search <span class="main_s_s">{{ item.text }}</span> for: {{ search }}</v-list-tile-title>
 </v-list-tile>
 <v-divider></v-divider>
-<v-list-tile v-for="(item, index) in mainfilters_2" :key="index" @click="add_a2(item.text,search)">          
+<v-list-tile v-for="(item, index) in mainfilters_2" :key="`B-${index}`" @click="add_a2(item.text,search)">          
 <v-list-tile-title>Filter on: {{ item.text }}</v-list-tile-title>        
 </v-list-tile>
 <v-divider></v-divider>
 
-<v-list-tile v-for="(item, index) in mainfilters_3" :key="index" @click="add_a3(item.text,search)">          
+<v-list-tile v-for="(item, index) in mainfilters_3" :key="`C-${index}`" @click="add_a3(item.text,search)">          
 <v-list-tile-title>Group by: {{ item.text }}</v-list-tile-title>        
 </v-list-tile>
 

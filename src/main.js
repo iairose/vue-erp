@@ -12,7 +12,7 @@ import './assets/css/home.css'
 
 import VueResource from 'vue-resource'
 
-Vue.use(VueResource);
+Vue.use(VueResource)
 Vue.use(Vuetify, { theme: {
   primary: '#ee44aa',
   secondary: '#424242',
@@ -24,19 +24,12 @@ Vue.use(Vuetify, { theme: {
 }})
 
 Vue.config.productionTip = false
-
 export default {
-
-
-
 }
-
 /* eslint-disable no-new */
-
 new Vue({
   el: '#app',
   router,
   components: {App},
-  template: '<App/>',
-
+  template: '<App/>'
 })

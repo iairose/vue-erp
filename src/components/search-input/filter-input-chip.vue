@@ -1,13 +1,13 @@
 <template>
 <div class="filter_chip">	
 
-<span class="main_s_a" v-for="(item, index) in input_filter_chip_a1" :key="index"><span class="main_s_l">{{ item.text }}</span><span class="main_s_r">
+<span class="main_s_a" v-for="(item, index) in input_filter_chip_a1" :key="`aa-${index}`"><span class="main_s_l">{{ item.text }}</span><span class="main_s_r">
 {{ item.search }}</span><v-btn flat icon small color="grey lighten-2" @click="remove_input_items_a1(index)"><i class="fas fa-times"></i></v-btn></span>
 
-<span class="main_s_a" v-for="(item, index) in input_filter_chip_a2" :key="index"><span class="main_s_l">{{ item.text }}</span><span class="main_s_r">
+<span class="main_s_a" v-for="(item, index) in input_filter_chip_a2" :key="`bb-${index}`"><span class="main_s_l">{{ item.text }}</span><span class="main_s_r">
 {{ item.search }}</span><v-btn flat icon small color="grey lighten-2" @click="remove_input_items_a2(index)"><i class="fas fa-times"></i></v-btn></span>
 
-<span class="main_s_a" v-for="(item, index) in input_filter_chip_a3" :key="index"><span class="main_s_l">{{ item.text }}</span><span class="main_s_r">
+<span class="main_s_a" v-for="(item, index) in input_filter_chip_a3" :key="`cc-${index}`"><span class="main_s_l">{{ item.text }}</span><span class="main_s_r">
 {{ item.search }}</span><v-btn flat icon small color="grey lighten-2" @click="remove_input_items_a3(index)"><i class="fas fa-times"></i></v-btn></span>	
 <!-- <span class="main_s_a" v-for="(item, index) in input_filter_chip_a1" :key="index"><span class="main_s_l"><i class="fas fa-star"></i></span><span class="main_s_r">
 {{ item.text }}={{ item.search }}</span><v-btn flat icon small color="grey lighten-2" @click="remove_input_items_a1(index)"><i class="fas fa-times"></i></v-btn></span>

@@ -33,13 +33,12 @@ import EventBus from '@/event-bus.js'
 import custom_filter from '@/components/filter/custom-filter'
 import custom_filter_value from '@/components/filter/custom-filter-value'
 
-    export default {
-components: { custom_filter,custom_filter_value },
+export default {
+  components: { custom_filter, custom_filter_value },
 
-
-        data(){
-            return {
-filter_selected: [],              
+  data () {
+return {
+filter_selected: [],
 menufilter: false,
 filtersearch_a:[
 {models_a:"myorders",text:"My Orders",class:"menu_border_1"},

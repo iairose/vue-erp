@@ -18,13 +18,12 @@ mychip:[],
  methods: {
     fetchData(filter_selected) {
     	if(filter_selected){
-    		this.mychip=filter_selected;
-    		}
-    	
+    		this.mychip=filter_selected
+    		}    	
     },
 
     removefilter_b1(index){          
-           this.mychip.splice(index,1); 
+           this.mychip.splice(index, 1); 
         },  
   },
   mounted () {
