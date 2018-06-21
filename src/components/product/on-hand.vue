@@ -6,24 +6,15 @@ On hand
 
 <script>
 export default {
-name:'On hand',
+name:'On_hand',
 components:{},
 data (){
 return {
-
-
-
-
-
 }
 
 },
 methods:{
-
-
 }
-
-
 }	
 
 </script>

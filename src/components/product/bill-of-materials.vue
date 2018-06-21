@@ -6,24 +6,15 @@ Bill of materials
 
 <script>
 export default {
-name:'Bill of materials',
+name:'Bill-of-materials',
 components:{},
 data (){
 return {
-
-
-
-
-
 }
 
 },
 methods:{
-
-
 }
-
-
 }	
 
 </script>

@@ -1,24 +1,23 @@
 body{font-family: robot;font-size: 13px;}
 .tabs__container--icons-and-text {
-    height: 52px;
+height: 52px;
 }
 .container{padding: 0;}
 .btn__content:before{opacity: 0;}
 
 table.table tbody td, table.table tbody th{height: 33px;}
 table.table tbody tr{height: 33px;}
- table.table thead th:first-child{padding-left: 0;}
- table.table tbody td:first-child{padding-left: 0;}
+table.table thead th:first-child{padding-left: 0;}
+table.table tbody td:first-child{padding-left: 0;}
 
- .table__overflow .datatable thead th:last-child.column.sortable i{display: none;}
+.table__overflow .datatable thead th:last-child.column.sortable i{display: none;}
 
 .table__overflow tbody tr:nth-of-type(even){
-    background-color:#FFFFFF;
+background-color:#FFFFFF;
 }
 .table__overflow tbody tr:nth-of-type(odd){
-    background-color:#F5F5F5;
+background-color:#F5F5F5;
 }/*斑马纹;*/
-/*.table__overflow{border-top: 1px solid #BDBDBD;}*/
 .table__overflow{padding-top: 8px;}
 .table__overflow .datatable thead th.column.sortable{text-align: right;font-weight: bold;color: #616161;}
 .table__overflow .datatable thead th.column.sortable:nth-child(2){text-align: left;text-indent: -3px;}
@@ -46,21 +45,19 @@ table.table tbody tr{height: 33px;}
 
 .toolbar__items .btn__content{padding: 0 10px;color: #fff;}
 .toolbar__content .btn__content i.icon{font-size: 20px;}
-  .input-group.input-group--overflow .input-group__selections{height: 28px;}
-  #top_center label{font-size: 11px;top:0!important; text-align: left;font-weight: 500;    color: rgba(0,0,0,.65);}
-  /*#top_center i{position: relative;top: 3px;font-size: 11px;    color: rgba(0,0,0,.65);}*/
+.input-group.input-group--overflow .input-group__selections{height: 28px;}
+#top_center label{font-size: 11px;top:0!important; text-align: left;font-weight: 500;    color: rgba(0,0,0,.65);}
 #top_center .input-group.input-group--overflow .input-group__append-icon{top:0;font-size: 17px;}
-  .input-group.input-group--overflow label{left: 0!important;}
-  #top_dropdown{background: #fff;width: 100%;padding: 8px;}
+.input-group.input-group--overflow label{left: 0!important;}
+#top_dropdown{background: #fff;width: 100%;padding: 8px;max-width: 100%;}
 .navbg,.indigo {
-    background-color: #875a7a!important;
-    border-color: #3f51b5!important;
+background-color: #875a7a!important;
+border-color: #3f51b5!important;
 }
 
 .input-group.input-group--overflow .input-group__append-icon{width: auto;}
 
 .btn__content{text-transform: capitalize;}
-/*.input-group.input-group--append-icon label{max-width: 85%;}*/
 
 .btn{font-size: 13px;font-weight: normal;}
 .left-btn .btn--small .btn__content{color: #fff;}
@@ -70,11 +67,9 @@ table.table tbody tr{height: 33px;}
 
 .btn:not(.btn--depressed){box-shadow:0 3px 1px -2px rgba(0,0,0,0), 0 2px 2px 0 rgba(0,0,0,0), 0 1px 5px 0 rgba(0,0,0,0);;}
 
- #fix-for-tab .top-tile .card__title {
-    padding: 16px;
+#fix-for-tab .top-tile .card__title {
+padding: 16px;
 }
-
-/*.menu_user{position: absolute;right: 20px;top: 8px;}*/
 
 .menu_user img{border-radius: 50%;width: 30px;height: 30px;}
 #menu_icon span{height: 100%;}
@@ -94,23 +89,22 @@ table.table tbody tr{height: 33px;}
 .menu_wrench .menu_user i{font-size: 16px;}
 .menu_u_r{height: 100%;}
 .menu_wrench .btn--icon{width: 30px;}
+#main_wrapdown .tabs__items{min-height: 250px;background-color: #fff;}
 @media (min-width: 0){
 .topmid_txt .flex.xs10{position: relative;left: 3px;}
 }
 
 @media only screen and (max-width: 600px){
-/*#top_center .input-group.input-group--overflow .input-group__append-icon{left: 33px;}*/
 .input-group.input-group--overflow .input-group__append-icon{width: 15px;}	
 #top_center .input-group.input-group--overflow .input-group__append-icon{top:2px;}
 .toolbar__items .btn__content{padding: 0 5px;}
 .toolbar__title{margin-left: 0;display: inline-table;
 font-size: 13px;
 font-weight: bold;}
-.toolbar .toolbar__content > .btn:first-child, .toolbar .toolbar__extension > .btn:first-child{margin-left: 8px;}
+.toolbar .toolbar__content > .btn:first-child, .toolbar .toolbar__extension > .btn:first-child{margin-left: 0;}
 .toolbar .toolbar__content > :not(.btn):not(.menu):last-child:not(:only-child){margin-right: 0;}
 
-.toolbar__title{width: auto;}
+.toolbar__title{display: none;}
 .menu_user_hide{display: none;}
-.menu_wrench .menu_user{margin-right: 10px;}
-.menu_u_r .btn:last-child{display: none;}
+.menu_wrench .menu_user{margin-right: 8px;margin-left: 0;}
 }

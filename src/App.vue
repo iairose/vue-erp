@@ -43,7 +43,7 @@
        <v-toolbar-items>
 
     <v-layout row justify-space-between align-center>
-      <v-flex xs10 class="menu_u_r">      
+      <v-flex xs12 class="menu_u_r">      
        
 <v-menu open-on-hover bottom offset-y>
       <v-btn slot="activator" color="white" flat>Orders</v-btn>
@@ -89,7 +89,7 @@
     </v-menu>
 
      </v-flex>
-      <v-flex xs2 text-xs-right align-center>
+      <v-flex xs1 text-xs-right align-center>
       <div class="menu_wrench"><span class="menu_user menu_user_hide"><v-btn flat icon><i class="fas fa-wrench"></i></v-btn></span>
       <span class="menu_user"><a href="#"><img src="./assets/img/1.jpg"/></a></span></div>
       </v-flex>

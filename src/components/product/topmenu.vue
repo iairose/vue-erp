@@ -117,17 +117,17 @@
       <v-flex xs2 order-xs3 order-sm3 order-md3 order-lg3 order-xl3>
        <div id="top_arrow">
 <v-layout row wrap>
-<v-flex class="py-2 text-lg-right">
+<v-flex class="py-2 text-lg-right" id="toggleprenext">
   
-            <v-btn-toggle v-model="toggle_exclusive">
-              <v-btn flat>
-               <i class="fas fa-angle-left"></i>
-              </v-btn>
-              <v-btn flat>
-                <i class="fas fa-angle-right"></i>
-              </v-btn>            
-            </v-btn-toggle>
-          
+<v-btn-toggle v-model="toggle_exclusive">
+<v-btn flat>
+<i class="fas fa-angle-left"></i>
+</v-btn>
+<v-btn flat>
+<i class="fas fa-angle-right"></i>
+</v-btn>            
+</v-btn-toggle>
+
 </v-flex>
 </v-layout>
 </div>

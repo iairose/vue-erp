@@ -105,18 +105,3 @@ more: [
 }
 }
 </script>
-<style>
-#flexwrap{display: flex;justify-content:space-between;align-items:center;flex-wrap:wrap;border-top: 1px solid rgba(0,0,0,.12);border-bottom: 1px solid rgba(0,0,0,.12);}
-#flexwrap a{color: #000;text-decoration: none;flex-grow:1;border-right: 1px solid rgba(0,0,0,.12);padding: 5px 0;}
-#flexwrap a.router-link-active{border-bottom: 1px solid teal;background-color: #e6e6e6;}
-#tabdataview{background-color: #fff;padding-top: 20px;}
-#tabtopmore .list__tile{padding: 0; text-indent: 20px;}
-#tabtopmore .list__tile a{text-decoration: none;color: #000;}
-
-@media only screen and (max-width:  600px){
-#flexwrap{border-bottom: none;}	
-#flexwrap a{padding: 5px 10px;border-bottom: 1px solid rgba(0,0,0,.12);}
-.more_tab{padding: 20px 18px;border-bottom: 1px solid rgba(0,0,0,.12);}
-#tabtopmore .list__tile{padding: 0; text-indent: 5px;}
-}
-</style>

@@ -6,24 +6,15 @@ Reordering Rule
 
 <script>
 export default {
-name:'Reordering Rule',
+name:'Reordering_Rule',
 components:{},
 data (){
 return {
-
-
-
-
-
 }
 
 },
 methods:{
-
-
 }
-
-
 }	
 
 </script>
