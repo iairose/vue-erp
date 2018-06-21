@@ -44,7 +44,7 @@
 
 .right-search .menu{display: initial;width: 100%;}
 .filter-search .chip .chip__content{height: 18px;background: #F9F9F9;color: #8f8f8f;}
-.main_s_a .chip__content{padding: 0;/*border: 1px solid #875a7a !important;*/}
+.main_s_a .chip__content{padding: 0;}
 .main_s_l{background-color:#875a7a !important;color:white;padding:0 3px;line-height: 18px;height: 18px;}
 .main_s_r{padding-left:5px;line-height: 18px;color: #8f8f8f;height: 18px;}
 
@@ -62,7 +62,7 @@
 .filter-search .chip--small .icon, .filter-search .chip__close{font-size: 11px;}
 .filter-search .chip--removable .chip__content{padding-right: 0;}
 .filter-search .chip__close{margin: 0 3px;}
-.custom-filter .expansion-panel__body{margin:0 25px;}
+.custom-filter .expansion-panel__body{margin:0 25px 15px 25px;}
 .custom-filter .input-group{padding-top: 0;}
 .custom-filter .input-group--text-field label{top: 0;}
 .input-group--select .input-group__selections__comma{font-size: 13px;}
@@ -161,7 +161,7 @@ a.leftmenulink{color: rgb(0,0,0.85);text-decoration: none;}
 .toolbarmenu .list__tile__title{text-align: left;}
 .toolbarmenu .list__tile__title a{color: #000;text-decoration: none;font-size: 13px;}
 .search_pop .list__tile{height: 30px;font-size:13px;}
-
+#top_arrow{text-align: right;}
 
 @media only screen and (max-width:  600px){
 .gridwrap{width: 100%;}
@@ -175,7 +175,7 @@ a.leftmenulink{color: rgb(0,0,0.85);text-decoration: none;}
 #search-wrap{margin:0 10px;}
 .btn{margin:0;}
 .toolbar__content .btn{min-width: auto;}
-.toolbar__items .btn__content{padding:0 5px;}
+.toolbar__items .btn__content{padding:0 2px;}
 
 table.table .input-group--selection-controls.checkbox .icon{top: 3px;}
 .mymenufilter{text-align: center;margin-bottom: 20px;}

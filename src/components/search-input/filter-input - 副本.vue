@@ -88,15 +88,14 @@ EventBus.$emit('custom-search-input', this.search);
 // },
 
 
-// add_a1(text,search) {
-//   if(this.items_a1.indexOf(text) == -1 && this.items_a1.indexOf(search) == -1){  
+
+// if(this.indexWhere(this.items_a1, item => item.text === item.text)){
 // this.items_a1.push({
 // 'text': text,   
 // 'search': search,              
 // })
 // EventBus.$emit('input-items-a1', this.items_a1);
-// } else {alert('"'+ this.search +'"'+ " already applied.")}
-// },
+// } else {alert('"'+ this.search +'"'+ " already applied.")};
 
 add_a1(text,search) {
 this.items_a1.push({
@@ -104,6 +103,8 @@ this.items_a1.push({
 'search': search,              
 })
 EventBus.$emit('input-items-a1', this.items_a1);
+
+
 },
 
 add_a2(text,search) {

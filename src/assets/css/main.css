@@ -106,5 +106,5 @@ font-weight: bold;}
 
 .toolbar__title{display: none;}
 .menu_user_hide{display: none;}
-.menu_wrench .menu_user{margin-right: 8px;margin-left: 0;}
+.menu_wrench .menu_user{margin-right: 5px;margin-left: 0;}
 }
